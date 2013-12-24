@@ -31,10 +31,12 @@ document.body.addEventListener('playstop_ext', function() {
             R.Playa.PlayerStop();
             R.Unfire();
             console.log("Радио выкл.");
+            R.played = false;
         }
         else {
             R.Playa.PlayerPlay();
             console.log("Радио вкл.");
+            R.played = true;
         }
     }
 });
