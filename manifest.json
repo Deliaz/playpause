@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "PDJ playstop",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Пауза миксов и радио, играющих с promodj.com",
 
     "permissions": [
