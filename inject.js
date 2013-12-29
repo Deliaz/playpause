@@ -8,6 +8,9 @@
 
 console.log("Скрипт инъектирован.");
 
+// Селектор под включенное радио
+var $channel = null;
+
 document.body.addEventListener('playstop_ext', function() {
     // Для плеера миксов
     var CP = window.CORE.CurrentPlayer;
@@ -30,12 +33,18 @@ document.body.addEventListener('playstop_ext', function() {
         if (R.played) {
             R.Playa.PlayerStop();
             R.Unfire();
+
+            // Снимаем отображение включенного радио
+            $channel = $$("span.played");
+            $channel.removeClass("played")
+
             console.log("Радио выкл.");
             R.played = false;
         }
         else {
             R.Playa.PlayerPlay();
             console.log("Радио вкл.");
+            $channel.addClass("played")
             R.played = true;
         }
     }
