@@ -7,7 +7,7 @@ PDJ playstop
 [Установить расширение](https://chrome.google.com/webstore/detail/pdj-playstop/nphcoecmaigjlaadabjihhoaiaopcadk) из
 хромстора.
 
-После установки треубется обновить все вкладки с promodj.com .
+*После установки треубется обновить все вкладки с promodj.com*
 
-Версия: 1.0.0 (бета)
+Версия: 1.0.2
 
