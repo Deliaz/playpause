@@ -1,11 +1,10 @@
 {
     "manifest_version": 2,
-    "name": "PDJ playstop",
-    "version": "1.0.2",
-    "description": "Пауза миксов и радио, играющих с promodj.com",
+    "name": "playstop",
+    "version": "1.1.0",
+    "description": "Пауза миксов и радио, играющих с promodj.com, видео с youtube.com и радио с tunein.com",
 
     "permissions": [
-        "http://*.promodj.com/*",
         "tabs"
     ],
 
@@ -30,7 +29,11 @@
 
     "content_scripts": [
         {
-            "matches": ["http://promodj.com/*"],
+            "matches": [
+              "http://promodj.com/*",
+              "http://*.youtube.com/*",
+              "http://tunein.com/*"
+            ],
             "js": ["jquery-2.0.3.min.js", "content.js"],
             "run_at": "document_end",
             "all_frames":true

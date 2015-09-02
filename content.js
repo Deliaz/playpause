@@ -23,9 +23,10 @@ $(function() {
 
     // Обработчик вызовов от background: вызывается по нажатию на кнопку приложения
     chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
+
         if (request.action == "playpause") {
             // Триггер на нативном JS
-            var myEvent = new CustomEvent("playstop_ext");
+            var myEvent = new CustomEvent(request.eventName);
             document.body.dispatchEvent(myEvent);
 
             sendResponse({status: "success"});
