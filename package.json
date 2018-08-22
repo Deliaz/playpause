@@ -1,6 +1,23 @@
 {
   "name": "playstop",
-  "version": "1.1.0",
+  "version": "2.0.0",
+  "description": "Extension for Google Chrome which allows to Pause and Play music",
+  "main": "background.js",
+  "dependencies": {},
   "devDependencies": {
-  }
+    "uglify-es": "^3.3.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deliaz/playpause.git"
+  },
+  "author": "Deliaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Deliaz/playpause/issues"
+  },
+  "homepage": "https://github.com/Deliaz/playpause#readme"
 }
