@@ -1,19 +1,13 @@
-playstop
+PlayPause
 ============
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/nphcoecmaigjlaadabjihhoaiaopcadk.svg)
+## Chrome Extension which allows to Pause and Play your music
 
-Расширение для браузера Google Chrome. 
+[![Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_340x96.png)](https://chrome.google.com/webstore/detail/nphcoecmaigjlaadabjihhoaiaopcadk)
 
-Кнопка паузы и воспроизведения контента для сайтов:
-- promodj.com (радио и миксы)
-- youtube.com (видео)
-- tunein.com (радио)
+### A small button which switches play state for the following sites: 
+ * YouTube.com
+ * SoundCloud.com
+ * PromoDJ.com
 
-Висит в трее и спасает от переключения между вкладками.
-
-[Установить расширение](https://chrome.google.com/webstore/detail/pdj-playstop/nphcoecmaigjlaadabjihhoaiaopcadk) из
-хромстора.
-
-*После установки треубется обновить все вкладки с приведенными выше сайтами*
-
-Версия: 1.1.0
-
+It's highly effective if it has assigned a keyboard shortcut using chrome extensions interface (`chrome://extensions/shortcuts`). 
