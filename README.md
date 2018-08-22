@@ -4,7 +4,7 @@ playpause
 
 [![Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_340x96.png)](https://chrome.google.com/webstore/detail/nphcoecmaigjlaadabjihhoaiaopcadk)
 
-### A small button which switches play state for the following sites: 
+### A small button which toggles play state for the following sites: 
  * YouTube.com
  * SoundCloud.com
  * PromoDJ.com
