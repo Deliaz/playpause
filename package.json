@@ -1,6 +1,6 @@
 {
   "name": "playstop",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Extension for Google Chrome which allows to Pause and Play music",
   "main": "background.js",
   "dependencies": {},
